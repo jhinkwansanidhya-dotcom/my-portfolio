@@ -1,6 +1,7 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page1.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import maharajaLandingPage from "@/assets/images/maharaja-landing-page.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -8,40 +9,53 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "namansinghrana",
+    company: "SpikeX",
     year: "2025",
-    title: "Image to Sticker",
+    title: "Spikex.ai",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Enhanced user experience" },
+      { title: "Improved user feedback" },
+      { title: "Increased overall application traffic" },
     ],
-    link: "https://image-to-sticker.vercel.app/",
+    link: "https://spikexai.com/",
     image: darkSaasLandingPage,
   },
   {
-    company: "Open Source Project",
-    year: "2024",
+    company: "Open Source Contribution",
+    year: "2025",
     title: "Rentalog.in",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Added the FAQ section" },
+      { title: "Revamp the About us section" },
+      { title: "Increased brand awareness with sleek design" },
     ],
     link: "https://visionary-fenglisu-db1b1d.netlify.app/",
     image: lightSaasLandingPage,
   },
   {
-    company: "Final Year Project",
+    company: "Bunnies Bakes",
     year: "2024",
-    title: " Pothole Detection System",
+    title: "Bunnies Bakes",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Designed end to end" },
+      { title: "Increased website responsiveness and visual consistency" },
+      { title: "Enhanced brand identity with warm and inviting ui" },
+      { title: "Strengthened brand visuals with pastel color palette & clean typography" },
     ],
-    link: "https://pothole-detection-v0.streamlit.app/",
+    link: "https://bunnies-bakes.vercel.app",
     image: aiStartupLandingPage,
+  },
+  {
+    company: "Maharaja Palace ",
+    year: "2025",
+    title: "Maharaja Palace ",
+    results: [
+      { title: "Designed end to end" },
+      { title: "Enhanced booking experience with clear and simplified user flow" },
+      { title: "Improved brand visuals to reflect luxury and heritage aesthetics" },
+    ],
+    link: "https://www.figma.com/proto/XQXy5PnxrfVuj91bFWh9Es/Untitled?page-id=0%3A1&node-id=1-694&starting-point-node-id=1%3A694&scaling=min-zoom&content-scaling=fixed&show-proto-sidebar=1&t=EIUzTzjLe19BXJbY-1",
+    image: maharajaLandingPage,
   },
 ];
 

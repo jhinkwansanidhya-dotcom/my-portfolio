@@ -26,12 +26,16 @@ export const Header = () => {
       className="nav-item">
         About
       </button>
-      <button
+      <button 
       onClick={() => scrollToSection('contact')}
-      className="nav-item bg-white text-gray-900 
-      hover:text-gray-900 hover:bg-white/70">
+      className="nav-item">
         Contact
-      </button> 
+      </button>
+        <a href="https://drive.google.com/file/d/1tMPa88uEssfpN3rSuHhr3u9E0jy3OVuK/view?usp=sharing" 
+        target="_blank"   
+      className="nav-item bg-white text-gray-900 
+      hover:text-gray-900 hover:bg-white/70"
+        >Resume</a>
     </nav>
   </div>;
 };

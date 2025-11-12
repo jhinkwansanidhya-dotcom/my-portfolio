@@ -3,12 +3,14 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
-import JavascriptIcon from "@/assets/icons/square-js.svg"
-import ReactIcon from "@/assets/icons/react.svg"
-import HTMLIcon from "@/assets/icons/html5.svg"
-import CSSIcon from "@/assets/icons/css3.svg"
-import GithubIcon from "@/assets/icons/github.svg"
-import ChromeIcon from "@/assets/icons/chrome.svg"
+import framerIcon from "@/assets/icons/framer.svg"
+import adobephotoIcon from "@/assets/icons/adobephoto.svg"
+import figmaIcon from "@/assets/icons/figma.svg"
+import coralIcon from "@/assets/icons/coral.svg"
+import adobeXdIcon from "@/assets/icons/adobexd.svg"
+import nukeIcon from "@/assets/icons/nuke.svg"
+import illustratorIcon from "@/assets/icons/illustrator.svg"
+import mayaIcon from "@/assets/icons/maya.svg"
 import mapImage from "@/assets/images/map1.png"
 import smileMemoji from "@/assets/images/memoji-smile.png"
 import { CardHeader } from "@/components/CardHeader";
@@ -18,32 +20,36 @@ import { useRef } from "react";
 
 const toolboxItems = [
   {
-    title: "Java",
-    iconType:  JavascriptIcon,
+    title: "Framer",
+    iconType:  framerIcon,
   },
   {
-    title: "HTML5",
-    iconType:  HTMLIcon,
+    title: "Figma",
+    iconType:  figmaIcon,
   },
   {
-    title: "CSS3",
-    iconType:  CSSIcon,
+    title: "AdobeXd",
+    iconType:  adobeXdIcon,
   },
   {
-    title: "Javascript",
-    iconType:  JavascriptIcon,
+    title: "Nuke",
+    iconType:  nukeIcon,
   },
   {
-    title: "React",
-    iconType:  ReactIcon,
+    title: "AdobePhotoshop",
+    iconType:  adobephotoIcon,
   },
   {
-    title: "Node.js",
-    iconType:  ChromeIcon,
+    title: "Illustrator",
+    iconType:  illustratorIcon,
   },
   {
-    title: "GitHub",
-    iconType:  GithubIcon,
+    title: "Maya",
+    iconType:  mayaIcon,
+  },
+  {
+    title: "CoralDraw",
+    iconType:  coralIcon,
   },
 ]
 

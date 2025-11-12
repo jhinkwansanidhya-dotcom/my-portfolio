@@ -3,20 +3,12 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const footerLinks = [
   {
-    title: 'Github',
-    href: 'https://github.com/namansinghrana',
-  },
-  {
     title: 'Instagram',
-    href: 'https://www.instagram.com/namansingh__rana/',
-  },
-  {
-    title: 'Leetcode',
-    href: 'https://leetcode.com/u/NamanSinghRana/',
+    href: 'https://www.instagram.com/sanidhya_jhinkwan?igsh=MWI2Nzd6dTl1YW5veg==',
   },
   {
     title: 'Linkedin',
-    href: 'https://www.linkedin.com/in/namansinghrana/',
+    href: 'https://www.linkedin.com/in/sanidhya-jhinkwan-2286862a4/',
   },
 ]
 

@@ -83,7 +83,7 @@ export const HeroSection = () => {
           <div className='max-w-lg mx-auto'>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experiences</h1>
           <p className=' mt-4 text-center text-white/60 md:text-lg'>
-            I specialize in transforming designs into functional, high-performing web applications. Let&apos;s discuss your next project.
+           I specialize in crafting intuitive and visually engaging user experiences that turn ideas into seamless digital products. Let&apos;s collaborate on your next design project.
           </p>
           </div>
           <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
@@ -100,7 +100,7 @@ export const HeroSection = () => {
               <ArrowDown className="size-4"/>
             </button>
             <a
-    href="https://www.linkedin.com/in/namansinghrana/"
+    href="https://www.linkedin.com/in/sanidhya-jhinkwan-2286862a4/"
     target="_blank"
     rel="noopener noreferrer"
     className='inline-flex items-center gap-2 border border-white px-6 h-12 text-gray-900 bg-white rounded-xl font-semibold'>

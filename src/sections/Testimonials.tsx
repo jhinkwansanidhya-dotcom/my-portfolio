@@ -10,34 +10,22 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Malay Dewari",
-    position: "Software Engineer @HNBGU",
-    text: "Naman was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our project is exceptional. I'm thrilled with the results!",
+    name: "Ashutosh",
+    position: "Co-Founder @spikex",
+    text: "Runway is a modern clothing app designed to bring a seamless shopping experience to fashion lovers. The goal was to create an elegant, intuitive interface that helps users explore collections, discover trends, and shop effortlessly — all while reflecting the personality of a premium fashion brand.",
     avatar: memojiAvatar1,
   },
   {
-    name: "Mahajan Bhandari",
-    position: "Freelance Consultant @Fiverr",
-    text: "Working with Naman was a pleasure. His expertise in backend development brought our ideas to life in a way we never imagined. The website has been handling workload well.",
+    name: "Naman Rana",
+    position: "@Opensourcecontributor",
+    text: "“Collaborating with Sanidhya has been one of the best experiences I’ve had as a developer. They have a rare mix of creativity and technical understanding, ensuring that every design decision enhances both the user experience and development workflow. Their designs are clean, thoughtful, and always backed by a clear purpose. I’m always impressed by their professionalism, openness to feedback, and commitment to delivering high-quality results.",
     avatar: memojiAvatar2,
   },
   {
-    name: "Sanidhya Jhinkwan",
-    position: "Founding Team @SpikexAI",
-    text: "Naman's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "Navneet",
+    position: " @Microsoft",
+    text: "“Working with Sanidhya has been an amazing experience. Their designs are not only beautiful but also incredibly easy to implement. They understand how design and code connect, which makes the collaboration smooth and efficient.",
     avatar: memojiAvatar3,
-  },
-  {
-    name: "Ayush Barmola",
-    position: "Software Engineer @LTIMindtree",
-    text: "Naman is a true backend wizard. He took our complex idea and transformed it into an intuitive and engaging web application. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
-  },
-  {
-    name: "Shaswat Gusain",
-    position: "Tecehnical Project Manager @Mercor",
-    text: "Naman's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
   },
 ];
 
