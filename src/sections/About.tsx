@@ -55,7 +55,7 @@ const toolboxItems = [
 
 const hobbies = [
   {
-    title: 'Painting',
+    title: 'Film Making',
     emoji: '🎨',
     left: '5%',
     top: '5%',
@@ -73,7 +73,7 @@ const hobbies = [
     top: '35%',
   },
   {
-    title: 'Hiking',
+    title: 'Travelling',
     emoji: '🏃‍♂️',
     left: '70%',
     top: '45%',
@@ -84,12 +84,7 @@ const hobbies = [
     left: '35%',
     top: '40%',
   },
-  {
-    title: 'Fitness',
-    emoji: '💪',
-    left: '5%',
-    top: '65%',
-  },
+  
   {
     title: 'Reading',
     emoji: '📚',
@@ -140,7 +135,7 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
           <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
             <CardHeader
-              title="Beyond the Code"
+              title="Beyond the Design"
               description="Explore my interests and hobbies beyond the digital realm."
               className="px-6 py-6"
             /> 
