@@ -132,7 +132,7 @@ export const ProjectsSection = () => {
               h-12 w-full rounded-xl font-semibold inline-flex
               items-center justify-center gap-2 mt-8 mb-14  md:w-auto px-6">
                 <ArrowUpRightIcon className="size-4"/>
-                Visit Beehance
+                Beehance
                 </button>
               </a>
         </Card>
