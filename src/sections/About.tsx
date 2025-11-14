@@ -108,11 +108,21 @@ export const AboutSection = () => {
           md:grid-cols-5 lg:grid-cols-3 ">  
           <Card className="h-[320px] col-span-2 lg:col-span-1">
             <CardHeader 
-              title="My Reads" 
-              description="Explore the book shaping my perspetives."
+              title="About Me" 
+              description="
+              "
             />
-            <div className="w-40 mx-auto mt-2 md:mt-0">
-              <Image src={bookImage} alt="My book"/>
+            <div className="w-60 mx-auto pl-6 pr-6 md:mt-0">
+              <p className="text-white/60">It&apos;s Sanidhya,</p>
+              <p className="text-xs max-w-md mx-auto text-white/60 mt-1">
+                UI/UX designer who transforms ideas into meaningful 
+                digital experiences. 
+                With a background in animation and VFX, 
+                I bring <br></br> strong visuals, storytelling,
+                 and motion into my work. 
+                 I focus on understanding users and creating interfaces that
+                 feel natural, aesthetic, and  delightfully simple.</p>
+              {/* <Image src={bookImage} alt="My book"/> */}
             </div>
           </Card>
           <Card className="h-[320px] col-span-3 lg:col-span-2">

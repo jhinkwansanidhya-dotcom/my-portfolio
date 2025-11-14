@@ -38,9 +38,8 @@ const portfolioProjects = [
     title: "Bunnies Bakes",
     results: [
       { title: "Designed end to end" },
-      { title: "Increased website responsiveness and visual consistency" },
-      { title: "Enhanced brand identity with warm and inviting ui" },
-      { title: "Strengthened brand visuals with pastel color palette & clean typography" },
+      { title: "Increased website responsiveness" },
+      { title: "Enhanced brand identity with inviting ui" },
     ],
     link: "https://bunnies-bakes.vercel.app",
     image: aiStartupLandingPage,
@@ -50,9 +49,9 @@ const portfolioProjects = [
     year: "2025",
     title: "Maharaja Palace ",
     results: [
-      { title: "Designed end to end" },
-      { title: "Enhanced booking experience with clear and simplified user flow" },
-      { title: "Improved brand visuals to reflect luxury and heritage aesthetics" },
+      { title: "Designed end to end application" },
+      { title: "Refined experience with simplified user flow" },
+      { title: "Improved visuals to show luxury aesthetics" },
     ],
     link: "https://www.figma.com/proto/XQXy5PnxrfVuj91bFWh9Es/Untitled?page-id=0%3A1&node-id=1-694&starting-point-node-id=1%3A694&scaling=min-zoom&content-scaling=fixed&show-proto-sidebar=1&t=EIUzTzjLe19BXJbY-1",
     image: maharajaLandingPage,
@@ -118,6 +117,25 @@ export const ProjectsSection = () => {
             </div>
         </Card>
         ))}
+        <Card className="px-8 pb-0 pt-8 md:pt-12 md:px-10 text-center" >
+          <div className="text-3xl md:text-5xl font-serif text-center mt-6">
+            <h2>Design</h2>
+            <h2>
+              <span className="bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent">
+                Portfolio
+              </span>
+            </h2>
+          </div>
+
+              <a href="https://www.behance.net/sanidhyjhinkwa">
+              <button className="bg-white text-gray-950 
+              h-12 w-full rounded-xl font-semibold inline-flex
+              items-center justify-center gap-2 mt-8 mb-14  md:w-auto px-6">
+                <ArrowUpRightIcon className="size-4"/>
+                Visit Beehance
+                </button>
+              </a>
+        </Card>
       </div>
     </div>
   </section>);
