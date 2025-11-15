@@ -127,12 +127,12 @@ export const ProjectsSection = () => {
             </h2>
           </div>
 
-              <a href="https://www.behance.net/sanidhyjhinkwa">
+              <a href="https://drive.google.com/file/d/1Cq1g38Wcc6bBsALprfxGmI8JFN_N90Tv/view?usp=sharing">
               <button className="bg-white text-gray-950 
               h-12 w-full rounded-xl font-semibold inline-flex
               items-center justify-center gap-2 mt-8 mb-14  md:w-auto px-6">
                 <ArrowUpRightIcon className="size-4"/>
-                Beehance
+                See My Work
                 </button>
               </a>
         </Card>
