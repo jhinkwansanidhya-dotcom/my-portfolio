@@ -77,7 +77,7 @@ export const HeroSection = () => {
               <div className='bg-green-500 absolute inset-0 
               animate-ping-large rounded-full'></div>
             </div>
-            <div className='text-sm font-medium'>Avialable for new projects</div>
+            <div className='text-sm font-medium'>Available for new projects</div>
             </div>
           </div>
           <div className='max-w-lg mx-auto'>
